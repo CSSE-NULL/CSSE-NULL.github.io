@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg">
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-2.png">
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg">
-<meta property="og:updated_time" content="2018-10-13T10:02:16.602Z">
+<meta property="og:updated_time" content="2018-10-13T10:10:33.311Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo和Github Pages搭建个人博客">
 <meta name="twitter:description" content="准备工作安装Git安装Node.js Hexo安装及使用安装并初始化博客1234$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install 本地测试生成文件并启动本地预览：12hexo g # 或者hexo generatehexo s # 或者hexo server 此时，可以打开浏览器输入http://localhost:40">
@@ -132,7 +132,7 @@
 </li>
 <li><p>添加域名解析<br>在域名解析页面，选择记录类型为<strong>CNAME</strong>，记录值为你的博客网址，以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg" alt=""><br>配置成功后，输入你的网址就可以看到：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-2.png" alt=""><br>这以为你你的域名已经连上Github，但是没有找到你的博客。</p>
 </li>
-<li><p>配置博客网址映射到你的域名<br>在你的博客仓库根目录下，添加文件CNAME（点击按钮<strong>Create new file</strong>），内容为你的域名，这里不包含<strong>http://,www</strong>。再次以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg" alt=""><br>文件添加完毕后，等个几秒钟，再次输入你的域名后，便会转到你的博客。</p>
+<li><p>配置博客网址映射到你的域名<br>在你的<strong>source</strong>文件夹下，添加文件CNAME（注意一定不要直接放在主文件夹下，否则无法用hexo上传，也不要直接在github里仓库主页创建，那样是放在首页，也会被覆盖的），内容为你的域名，这里不包含<strong>http://,www</strong>。再次以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg" alt=""><br>文件添加完毕后，等个几秒钟，再次输入你的域名后，便会转到你的博客。</p>
 </li>
 </ul>
 <h3 id="添加sitemap和feed"><a href="#添加sitemap和feed" class="headerlink" title="添加sitemap和feed"></a>添加sitemap和feed</h3><ul>
