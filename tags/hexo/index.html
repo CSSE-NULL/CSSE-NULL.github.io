@@ -101,24 +101,21 @@
     </footer>
 
       
-
-
-
-
   <script>
-    (function() {
-      var utterances = document.createElement('script');
-      var utterances_container = document.getElementById('utterances_container');
-      utterances.src='https://utteranc.es/client.js'
-      utterances.setAttribute('repo', 'csse-null.github.io');
-      utterances.setAttribute('issue-term', 'title');
-      utterances.setAttribute('crossorigin', 'anonymous');
-      utterances.setAttribute('async', true);
-      if (utterances_container){
-        utterances_container.appendChild(utterances);
-      }
-    })();
-   </script>
+   var disqus_shortname = 'csse-null';
+   
+   (function(){
+     var dsq = document.createElement('script');
+     dsq.type = 'text/javascript';
+     dsq.async = true;
+     dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+   })();
+  </script>
+
+
+
+
 
 
 
