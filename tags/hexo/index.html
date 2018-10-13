@@ -103,21 +103,22 @@
       
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitment/style/default.min.css">
-<script src="https://cdn.jsdelivr.net/npm/gitment/dist/gitment.browser.min.js"></script>
-<script>
-  var gitment = new Gitment({
-    owner: 'csse-null',
-    repo: 'Comments',
-    oauth: {
-      client_id: '3e3e4217bec7fabd550f',
-      client_secret: 'a49b84ce43a634bccb1ad68fe77787e3a16c42fe'
-    }
-  })
-  gitment.render('gitment_container')
-</script>
 
 
+  <script>
+    (function() {
+      var utterances = document.createElement('script');
+      var utterances_container = document.getElementById('utterances_container');
+      utterances.src='https://utteranc.es/client.js'
+      utterances.setAttribute('repo', 'csse-null.github.io');
+      utterances.setAttribute('issue-term', 'title');
+      utterances.setAttribute('crossorigin', 'anonymous');
+      utterances.setAttribute('async', true);
+      if (utterances_container){
+        utterances_container.appendChild(utterances);
+      }
+    })();
+   </script>
 
 
 
