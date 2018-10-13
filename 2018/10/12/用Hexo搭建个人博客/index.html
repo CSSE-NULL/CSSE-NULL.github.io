@@ -16,7 +16,7 @@
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg">
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-2.png">
 <meta property="og:image" content="http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg">
-<meta property="og:updated_time" content="2018-10-13T03:59:24.334Z">
+<meta property="og:updated_time" content="2018-10-13T09:58:33.300Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo和Github Pages搭建个人博客">
 <meta name="twitter:description" content="准备工作安装Git安装Node.js Hexo安装及使用安装并初始化博客1234$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install 本地测试生成文件并启动本地预览：12hexo g # 或者hexo generatehexo s # 或者hexo server 此时，可以打开浏览器输入http://localhost:40">
@@ -135,7 +135,31 @@
 <li><p>配置博客网址映射到你的域名<br>在你的博客仓库根目录下，添加文件CNAME（点击按钮<strong>Create new file</strong>），内容为你的域名，这里不包含<strong>http://,www</strong>。再次以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg" alt=""><br>文件添加完毕后，等个几秒钟，再次输入你的域名后，便会转到你的博客。</p>
 </li>
 </ul>
-<p><strong><em>To be continued…</em></strong></p>
+<h3 id="添加sitemap和feed"><a href="#添加sitemap和feed" class="headerlink" title="添加sitemap和feed"></a>添加sitemap和feed</h3><ul>
+<li><p>安装对应的插件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br><span class="line">$ npm install hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改配置文件<br>打开主目录下的 <strong>_config.xml</strong>,添加对应的配置：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//#Feed Atom</span><br><span class="line">feed:</span><br><span class="line">  type: atom</span><br><span class="line">  path: atom.xml</span><br><span class="line">  limit: 20</span><br><span class="line">//#sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path: sitemap.xml</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>更多配置请阅读<a href="https://github.com/hexojs/hexo-generator-feed" target="_blank" rel="noopener">hexo-generator-feed</a>和<a href="https://github.com/hexojs/hexo-generator-sitemap" target="_blank" rel="noopener">hexo-generator-sitemap</a>的详细文档。</p>
+<ul>
+<li>在Google和Baidu上提交你的Sitemap<br>我们使用Sitemap，就是为了告诉搜索引擎自己有那些东西可以爬，从而使自己的搜索权重更大。关于提交部分，请参考：<a href="https://www.jianshu.com/p/9c2d6db2f855" target="_blank" rel="noopener">https://www.jianshu.com/p/9c2d6db2f855</a></li>
+</ul>
+<h3 id="添加评论"><a href="#添加评论" class="headerlink" title="添加评论"></a>添加评论</h3><ul>
+<li>Disqus<br>由于Hexo天然集成了Disqus,所以这个是最方便的。主要步骤如下：</li>
+</ul>
+<ol>
+<li><a href="https://disqus.com/" target="_blank" rel="noopener">注册disqus账号</a></li>
+<li>在 <strong>_config.xml</strong>中添加内容：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 填写你自己的 shortname</span><br><span class="line">disqus_shortname: xxxxx</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>就可以使用了。</p>
+<ul>
+<li>Gitment<br>在多说关闭后，貌似这个的呼声比较高，不过在评论的时候，每一次新建文章都需要手动初始化，而且需要Github用户授权认证，这个权限还挺高的，我折腾了半天，还是觉得不太舒服，所以舍弃了这个方案，不过大家有兴趣的可以尝试一下，放个参考链接：<a href="https://imsun.net/posts/gitment-introduction/" target="_blank" rel="noopener">https://imsun.net/posts/gitment-introduction/</a></li>
+</ul>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><p><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客</a><br><a href="https://www.jianshu.com/p/cea41e5c9b2a" target="_blank" rel="noopener">个性化博客——域名绑定</a><br><a href="https://www.jianshu.com/p/5f75a74b0f5e" target="_blank" rel="noopener">hexo+github搭建博客上传图片问题</a><br><strong><em>To be continued…</em></strong></p>
 
       
       
@@ -174,12 +198,6 @@
 
 
 
-  <section id="comments" class="comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </div>
-  </section>
-
 
 
 
@@ -197,20 +215,6 @@
     </footer>
 
       
-  <script>
-   var disqus_shortname = 'csse-null';
-   
-   var disqus_url = 'http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/';
-   
-   (function(){
-     var dsq = document.createElement('script');
-     dsq.type = 'text/javascript';
-     dsq.async = true;
-     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-   })();
-  </script>
-
 
 
 
