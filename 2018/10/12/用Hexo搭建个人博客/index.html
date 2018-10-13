@@ -13,10 +13,14 @@
 <meta property="og:site_name" content="hq&#39;s blog">
 <meta property="og:description" content="准备工作安装Git安装Node.js Hexo安装及使用安装并初始化博客1234$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install 本地测试生成文件并启动本地预览：12hexo g # 或者hexo generatehexo s # 或者hexo server 此时，可以打开浏览器输入http://localhost:40">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-10-12T15:40:32.017Z">
+<meta property="og:image" content="http://yoursite.com/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg">
+<meta property="og:image" content="http://yoursite.com/2018/10/12/用Hexo搭建个人博客/Hexo-domain-2.png">
+<meta property="og:image" content="http://yoursite.com/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg">
+<meta property="og:updated_time" content="2018-10-13T03:59:24.334Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo和Github Pages搭建个人博客">
 <meta name="twitter:description" content="准备工作安装Git安装Node.js Hexo安装及使用安装并初始化博客1234$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install 本地测试生成文件并启动本地预览：12hexo g # 或者hexo generatehexo s # 或者hexo server 此时，可以打开浏览器输入http://localhost:40">
+<meta name="twitter:image" content="http://yoursite.com/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -123,6 +127,14 @@
 <li><p>自定义主题<br>进入<code>themes/typing</code>,修改<code>_config.xml</code>进行自定义，注意这里不是主目录下的配置文件。</p>
 </li>
 </ol>
+<h3 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h3><ul>
+<li><p>准备工作<br>在<a href="https://cloud.tencent.com/" target="_blank" rel="noopener">腾讯云</a>，<a href="https://www.alibabacloud.com/?lang=en" target="_blank" rel="noopener">阿里云</a>等平台购买一个域名。</p>
+</li>
+<li><p>添加域名解析<br>在域名解析页面，选择记录类型为<strong>CNAME</strong>，记录值为你的博客网址，以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-1.jpg" alt=""><br>配置成功后，输入你的网址就可以看到：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-2.png" alt=""><br>这以为你你的域名已经连上Github，但是没有找到你的博客。</p>
+</li>
+<li><p>配置博客网址映射到你的域名<br>在你的博客仓库根目录下，添加文件CNAME（点击按钮<strong>Create new file</strong>），内容为你的域名，这里不包含<strong>http://,www</strong>。再次以我的配置为例：<br><img src="/2018/10/12/用Hexo搭建个人博客/Hexo-domain-3.jpg" alt=""><br>文件添加完毕后，等个几秒钟，再次输入你的域名后，便会转到你的博客。</p>
+</li>
+</ul>
 <p><strong><em>To be continued…</em></strong></p>
 
       
