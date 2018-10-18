@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;axb&amp;#x7684;&amp;#x884C;&amp;#x89C6;&amp;#x89D2;&amp;#x4E0E;&amp;#x5217;&amp;#x89C6;&amp;#x89D2;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+          &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css&quot;
         
       
     
@@ -53,7 +53,8 @@
       
         
         
-          &lt;h2 id=&quot;&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&quot;&gt;&lt;/a&gt;
+          &lt;h2 id=&quot;&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&quot;&gt;&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://git-scm.com/download/&quot; target=&quot;_blank&quot;
         
       
     
