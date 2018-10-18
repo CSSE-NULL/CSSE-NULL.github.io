@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://csse-null.github.io/"/>
-  <updated>2018-10-13T11:26:47.583Z</updated>
+  <updated>2018-10-18T06:34:44.173Z</updated>
   <id>http://csse-null.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>线性代数的几何表示</title>
+    <link href="http://csse-null.github.io/2018/10/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA/"/>
+    <id>http://csse-null.github.io/2018/10/18/线性代数的几何表示/</id>
+    <published>2018-10-18T06:17:33.000Z</published>
+    <updated>2018-10-18T06:34:44.173Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;线性代数的几何表示&quot;&gt;&lt;a href=&quot;#线性代数的几何表示&quot; class=&quot;headerlink&quot; title=&quot;线性代数的几何表示&quot;&gt;&lt;/a&gt;线性代数的几何表示&lt;/h1&gt;&lt;h2 id=&quot;Ax-b-的行视角与列视角&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linear Algebra" scheme="http://csse-null.github.io/tags/Linear-Algebra/"/>
+    
+  </entry>
+  
+  <entry>
     <title>基于Hexo和Github Pages搭建个人博客</title>
     <link href="http://csse-null.github.io/2018/10/12/%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://csse-null.github.io/2018/10/12/用Hexo搭建个人博客/</id>
     <published>2018-10-12T14:49:32.000Z</published>
-    <updated>2018-10-13T11:26:47.583Z</updated>
+    <updated>2018-10-13T13:13:05.167Z</updated>
     
     <summary type="html">
     
