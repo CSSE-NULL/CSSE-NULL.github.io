@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://csse-null.github.io/"/>
-  <updated>2018-10-18T06:34:44.173Z</updated>
+  <updated>2018-10-18T06:41:29.933Z</updated>
   <id>http://csse-null.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://csse-null.github.io/2018/10/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA/"/>
     <id>http://csse-null.github.io/2018/10/18/线性代数的几何表示/</id>
     <published>2018-10-18T06:17:33.000Z</published>
-    <updated>2018-10-18T06:34:44.173Z</updated>
+    <updated>2018-10-18T06:41:29.933Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h1 id=&quot;线性代数的几何表示&quot;&gt;&lt;a href=&quot;#线性代数的几何表示&quot; class=&quot;headerlink&quot; title=&quot;线性代数的几何表示&quot;&gt;&lt;/a&gt;线性代数的几何表示&lt;/h1&gt;&lt;h2 id=&quot;Ax-b-的行视角与列视角&quot;&gt;&lt;a
+          &lt;h1
         
       
     
@@ -53,7 +53,8 @@
       
         
         
-          &lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://git-scm.com/download/&quot; target=&quot;_blank&quot;
+          &lt;h2 id=&quot;&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&quot;&gt;&amp;#x51C6;&amp;#x5907;&amp;#x5DE5;&amp;#x4F5C;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;http://git-scm.com/download/&quot; target=&quot;_blank&quot;
         
       
     
