@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stevehu.cn/2018/11/02/test/</loc>
-    <lastmod>2018-11-02T14:57:57.469Z</lastmod>
+    <loc>https://stevehu.cn/2018/10/12/%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2018-11-02T15:26:39.212Z</lastmod>
   </url>  <url>
-    <loc>https://stevehu.cn/2018/10/31/logstic-regression/</loc>
+    <loc>https://stevehu.cn/2018/10/31/logistic-regression/</loc>
     <lastmod>2018-11-02T13:17:34.019Z</lastmod>
   </url>  <url>
     <loc>https://stevehu.cn/2018/10/18/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA/</loc>
     <lastmod>2018-10-23T02:56:00.546Z</lastmod>
-  </url>  <url>
-    <loc>https://stevehu.cn/2018/10/12/%E7%94%A8Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-10-23T02:51:02.366Z</lastmod>
   </url>
 </urlset>
