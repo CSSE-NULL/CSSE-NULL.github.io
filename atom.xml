@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://stevehu.cn/"/>
-  <updated>2018-11-02T13:04:48.661Z</updated>
+  <updated>2018-11-02T14:57:57.469Z</updated>
   <id>https://stevehu.cn/</id>
   
   <author>
@@ -17,11 +17,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://stevehu.cn/2018/11/02/test/"/>
+    <id>https://stevehu.cn/2018/11/02/test/</id>
+    <published>2018-11-02T14:55:38.000Z</published>
+    <updated>2018-11-02T14:57:57.469Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;ssdsdssss &lt;img
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Logistic Regression</title>
     <link href="https://stevehu.cn/2018/10/31/logstic-regression/"/>
     <id>https://stevehu.cn/2018/10/31/logstic-regression/</id>
     <published>2018-10-31T11:09:41.000Z</published>
-    <updated>2018-11-02T13:04:48.661Z</updated>
+    <updated>2018-11-02T13:17:34.019Z</updated>
     
     <summary type="html">
     
