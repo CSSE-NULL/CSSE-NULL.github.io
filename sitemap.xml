@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://stevehu.cn/papers/index.html</loc>
+    <loc>https://stevehu.cn/2019/05/01/TinyTex-VSCode/</loc>
     
-    <lastmod>2019-03-05T07:17:43.431Z</lastmod>
+    <lastmod>2019-05-01T10:23:45.771Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://stevehu.cn/2019/04/01/BOW-and-Ngrams/</loc>
+    
+    <lastmod>2019-04-07T11:38:47.210Z</lastmod>
     
   </url>
   
