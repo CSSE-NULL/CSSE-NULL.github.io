@@ -77,7 +77,14 @@ valine:
   pageSize: 10 # comment list page size
   verify: false # valine verify code (true/false)
   notify: true # valine mail notify (true/false)
+  visitor: true # show the number of visitors
   lang: zh-cn
+
+# leancloud stastic of visitors
+leancloud_visitors:
+  enable: true
+  app_id: 7gzxQSBU9E7feQRDYRQ5uucC-gzGzoHsz
+  app_key: STpRQGYWwk94qyKYBxUBmUME
 
 # MathJax Support
 # mathjax:

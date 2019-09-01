@@ -57,6 +57,7 @@
       });
       var notify = '<%= theme.valine.notify %>' == true;
       var verify = '<%= theme.valine.verify %>' == true;
+      var visitor = '<%= theme.valine.visitor %>' == true;
       var valine = new Valine();
       valine.init({
           el: '#valine_container',
@@ -67,7 +68,8 @@
           placeholder: "<%= theme.valine.placeholder %>",
           pageSize:'<%= theme.valine.pageSize %>',
           avatar:'<%= theme.valine.avatar %>',
-          lang:'<%= theme.valine.lang %>'
+          lang:'<%= theme.valine.lang %>',
+          visitor: visitor
       })
   </script>
 <% } %>
