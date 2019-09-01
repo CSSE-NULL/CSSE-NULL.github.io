@@ -87,7 +87,7 @@ feed:
   order_by: -date
 
 # Disqus 
-disqus_shortname: csse-null
+# disqus_shortname: csse-null
 
 ## Themes: https://hexo.io/themes/
 theme: typing
