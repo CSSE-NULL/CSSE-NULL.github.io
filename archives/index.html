@@ -189,6 +189,7 @@
       });
       var notify = 'true' == true;
       var verify = 'false' == true;
+      var visitor = 'true' == true;
       var valine = new Valine();
       valine.init({
           el: '#valine_container',
@@ -200,7 +201,7 @@
           pageSize:'10',
           avatar:'monsterid',
           lang:'zh-cn',
-          visitor:'true'
+          visitor: visitor
       })
   </script>
 
