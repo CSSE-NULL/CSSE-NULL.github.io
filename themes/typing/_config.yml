@@ -80,11 +80,12 @@ valine:
   visitor: true # show the number of visitors
   lang: zh-cn
 
-# leancloud stastic of visitors
+
+# add post views
 leancloud_visitors:
-  enable: true
-  app_id: 7gzxQSBU9E7feQRDYRQ5uucC-gzGzoHsz
-  app_key: STpRQGYWwk94qyKYBxUBmUME
+ enable: true
+ app_id:  7gzxQSBU9E7feQRDYRQ5uucC-gzGzoHsz
+ app_key: STpRQGYWwk94qyKYBxUBmUME
 
 # MathJax Support
 # mathjax:
